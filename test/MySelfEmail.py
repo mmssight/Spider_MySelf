@@ -103,8 +103,8 @@ def LoadEmail(msg):
             text = None
     # print('接收人：{}\n发件人：{}\n主题：{}\n附件名：{}\n接收时间：{}\n邮件正文：\n{}'.format(to, fm, subject, file_name, date, text))
 if __name__ == '__main__':
-    username = 'mamingnuo@163.com'
-    password = 'mms5211314HH'
+    username = '******@163.com'
+    password = '*****'
     pop3_server = 'pop.163.com'
     msg = LoginEmail(username, password, pop3_server)
     if msg:
